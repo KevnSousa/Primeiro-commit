@@ -35,10 +35,9 @@ public class Caneta {
         this.ponta = p;
     }
 
-    void escrever(){
+    void escrever() {
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Descricão: " + this.descricao);
         System.out.println("Ponta: " + this.ponta);
     }
-
 }

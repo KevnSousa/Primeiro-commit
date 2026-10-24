@@ -17,5 +17,7 @@ public class Main {
         caneta2.setPonta(2.0f);
         caneta2.escrever();
 
+        Caneta caneta3 = new Caneta("R.S.V.P", "Caneta do bico medio", 1.8f);
+        caneta3.escrever();
     }
 }
